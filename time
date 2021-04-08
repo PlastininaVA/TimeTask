@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+        Время
+    </title>
+</head>
+  
+<body>
+    <script type="text/javascript">
+        var myDate = new Date();
+        var hours = myDate.getHours();
+        var minutes = myDate.getMinutes();
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        var myTime = hours + " : " + minutes;
+        document.write("Current time: " + myTime);
+    </script>
+</body>
+  
+</html>
