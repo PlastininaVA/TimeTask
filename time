@@ -14,7 +14,7 @@
         var minutes = myDate.getMinutes();
         minutes = minutes < 10 ? '0' + minutes : minutes;
         var myTime = hours + " : " + minutes;
-        document.write("Current time: " + myTime);
+        document.write("Current time is: " + myTime);
     </script>
 </body>
   
