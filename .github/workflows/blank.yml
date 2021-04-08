@@ -47,6 +47,6 @@ jobs:
             # Bucket name
             bucket: timebucket
             # Path to upload folder
-            path: ./github
+            path: github
             # Clear bucket before deploy
             clear: false
