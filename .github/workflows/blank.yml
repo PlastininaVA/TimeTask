@@ -47,6 +47,6 @@ jobs:
             # Bucket name
             bucket: timebucket
             # Path to upload folder
-            path: ./папка
+            path: https://console.cloud.yandex.ru/folders/b1gujjkq7f9l9bo35f4c/storage/bucket/timebucket
             # Clear bucket before deploy
             clear: true
