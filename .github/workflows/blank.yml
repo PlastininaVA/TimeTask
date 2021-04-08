@@ -49,4 +49,4 @@ jobs:
             # Path to upload folder
             path: ./github
             # Clear bucket before deploy
-            clear: true
+            clear: false
